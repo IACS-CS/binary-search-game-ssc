@@ -19,5 +19,8 @@ if (brave) {
   if (ambitious) {
     ti.output("You are a Slytherin!");
   } else {
-  }
-}}
+    ti.output("Are you loyal?");
+    let loyal = await ti.readYesOrNo();
+    if (loyal) {
+      ti.output("You are a Ravenclaw!");  }
+}}}
