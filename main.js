@@ -39,7 +39,10 @@ if (primary) {
         ti.output("Ooh! Nice color!")
       } else {
         ti.output (" So, it must be green! My favorite color!")
-      }
-    }}
+      } 
+    }
+  else {
+    ti.output(" So, you must be thinking of orange! I love that color!")
+  }}
 }
  
