@@ -17,9 +17,17 @@ if (primary) {
     }
 }} else {
   ti.output("Is it a secondary color?");
-  let compassionate = await ti.readYesOrNo();
-    if (compassionate) {
-    ti.output("You are a Hufflepuff!");
+  let secondary = await ti.readYesOrNo();
+    if (secondary) {
+    ti.output("Is it a cool color?");
+    let cool = await ti.readYesOrNo ();
+    if (cool) {
+      ti. output(" Is it purple?")
+      let purple = await ti.readYesOrNo ();
+      if (purple) {
+        ti.output("Ooh! Nice color!")
+      }
+    }
 } else {
    ti.output("Are you ambitious?");
   let ambitious = await ti.readYesOrNo();
