@@ -15,13 +15,13 @@ if (primary) {
     if (red) { 
       ti.output("Ooh! Nice color!")
     } else { 
+      ti.output("So, it must be yellow! I LOVE that color!")
       let yellow = await ti.readYesOrNo ();
       if (yellow) {
       ti.output("Ooh! Nice color!")
       }}
   } else ( 
     ti.output("Your color is blue! I like that color too!")
-
     // cool
 
   )
