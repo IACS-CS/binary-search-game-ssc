@@ -7,10 +7,14 @@ let ti = new TextInterface(app, "Guess The Color of the Rainbow!");
 ti.output("Is it a primary color?");
 let primary = await ti.readYesOrNo();
 if (primary) {
-  ti.output("Is it a warm or cool color?");
+  ti.output("Is it a warm color?");
   let warm = await ti.readYesOrNo();
   if (warm) {
-    ti.output("Is it red or yellow?")
+    ti.output("Is it red?")
+    let red = await ti.readYesOrNo();
+    if (red) { 
+      ti.output("Ooh! Nice color!")
+    }
 }} else {
   ti.output("Is it a secondary color?");
   let compassionate = await ti.readYesOrNo();
