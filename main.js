@@ -40,6 +40,6 @@ if (primary) {
       } else {
         ti.output (" So, it must be green! My favorite color!")
       }
-    }
+    }}
 }
- }
+ 
