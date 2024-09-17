@@ -37,16 +37,9 @@ if (primary) {
       let purple = await ti.readYesOrNo ();
       if (purple) {
         ti.output("Ooh! Nice color!")
+      } else {
+        ti.output (" So, it must be green! My favorite color!")
       }
     }
-} else {
-   ti.output("Are you ambitious?");
-  let ambitious = await ti.readYesOrNo();
-  if (ambitious) {
-    ti.output("You are a Slytherin!");
-  } else {
-    ti.output("Are you loyal?");
-    let loyal = await ti.readYesOrNo();
-    if (loyal) {
-      ti.output("You are a Ravenclaw!");  }
-}}}
+}
+ }
